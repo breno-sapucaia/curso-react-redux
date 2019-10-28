@@ -9,11 +9,13 @@ import ReactDOM from 'react-dom'
 // import MultiElementos from "./components/MultiElementos.jsx";
 // import Pai  from "./components/Pai";
 // import CC from './components/ComponenteClasse'
-import Contador from './components/Contador'
+// import Contador from './components/Contador'
+import Hook from './components/Hook'
 const elemento = document.getElementById('root');
 ReactDOM.render(
     <React.Fragment>
-        <Contador numero="1"></Contador>
+        <Hook></Hook>
+        {/* <Contador numero="1"></Contador> */}
         {/* <CC valor=""></CC> */}
         {/* <Pai /> */}
         {/* <ComponenteComFuncao/> */}
