@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 export default props => {
-    let contador = 3;
+    const [ contador, setContador ] = useState(100)
     return(
         <div>
             <h1>{contador}</h1>
-            <button onClick={() => contador++ }>incrementar</button>
+            <button onClick={() => setContador(contador + 1) }>incrementar</button>
         </div>
     )
 }
